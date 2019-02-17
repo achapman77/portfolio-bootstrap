@@ -2628,6 +2628,42 @@ html.no-csstransitions .home-content__main {
     display: none;
 }
 
+.item-folio__links {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 1.5rem;
+    align-items: center;
+    margin: 1rem;
+
+}
+
+.btn-folio:hover {
+    color: #226995;
+}
+
+.item-folio__links i {
+    margin-right: 1rem;
+}
+
+.item-folio__links a {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+    align-self: center;
+}
+.item-folio__links a:hover {
+    color: #226995;
+}
+
+.item-folio__links a:hover i{
+    color: #226995;
+}
+
+.item-folio__links .ml {
+    margin-left: 3rem;
+}
+
 .item-folio__project-link {
     display: block;
     color: #FFFFFF;
@@ -2636,7 +2672,7 @@ html.no-csstransitions .home-content__main {
     height: 4.2rem;
     width: 4.2rem;
     text-align: center;
-    z-index: 500;
+    z-index: 1500;
     position: absolute;
     top: 3rem;
     left: 3rem;
