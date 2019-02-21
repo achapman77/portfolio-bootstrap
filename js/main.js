@@ -334,8 +334,8 @@
             submitHandler: function(form) {
     
                 var sLoader = $('.submit-loader');
-                var $form = $(this);
-                $.post($form.attr("action"), $form.serialize())
+                
+                $.post($(form).attr("action"), $(form).serialize())
                     .then(function () {
                         alert("Thank You");
                     });
